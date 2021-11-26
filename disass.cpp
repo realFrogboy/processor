@@ -16,7 +16,7 @@ int make_commands(char *str, int nSmbl) {
 
     for (int num = 0; num < nlines; num++) {
         //puts(astr[num].refonBegin);
-        scanLine(astr[num].refonBegin, output);\
+        scanLine(astr[num].refonBegin, output);
         fprintf(output, "\n");
     }
 
@@ -24,6 +24,7 @@ int make_commands(char *str, int nSmbl) {
     LabelsDtor(label);
 
     free(astr);
+    fclose(output);
 
     return 0;
 }
@@ -113,7 +114,7 @@ int defineName (int funcNum, char *name_of_func) {
         COPY_FUNC_NAME(jne, JNE);
         COPY_FUNC_NAME(call, CALL);
         COPY_FUNC_NAME(ret, RET);
-        COPY_FUNC_NAME(sqtr, SQRT);
+        COPY_FUNC_NAME(sqrt, SQRT);
     }
 
     return 1;
@@ -138,6 +139,7 @@ int fill_labels (Labels *strc) {
         getLabel(astr[num].refonBegin, strc);
     }
 
+    free(astr);
     free (str);
     fclose (label_file);
 

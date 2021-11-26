@@ -56,7 +56,7 @@ const int LABEL_NAME_SIZE = 20;
 
 
 #ifndef PUSH_LABELS
-#define PUSH_LABELS char name[10] = "";                         \
+#define PUSH_LABELS char name[20] = "";                         \
                     int pos = 0;                                \
                                                                 \
                     sscanf (ptr_line, "%s - %d", name, &pos);   \

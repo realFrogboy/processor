@@ -116,15 +116,15 @@ void scanFile (int numSymbol, struct line* string, char* str_in) //rename
 
         if (str_in[num] == '\0')
         {
-            int num1 = num;   //rename
+            //int num1 = num;   //rename
 
             string[ind].lenStr = num - numBeg;
 
-            while (!isalpha (str_in[num1]))
+            /*while (!isalpha (str_in[num1]))
             {
                 string[ind].lenStr--;
                 num1--;
-            }
+            }*/
 
             string[ind].lenStr++;
 
