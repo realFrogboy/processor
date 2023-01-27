@@ -1,0 +1,3 @@
+/mnt/c/codeW/processor/proc/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/codeW/processor/proc/build/CMakeFiles/edit_cache.dir
+/mnt/c/codeW/processor/proc/build/CMakeFiles/proc.dir

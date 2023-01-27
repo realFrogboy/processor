@@ -1,0 +1,25 @@
+push 5.000000
+pop ax
+call :: fact
+push bx
+out
+hlt
+: fact
+push 0.000000
+push ax
+je :: stop
+push ax
+push ax
+push 1.000000
+sub
+pop ax
+call :: fact
+push bx
+mul
+pop bx
+ret
+: stop
+push 1.000000
+pop bx
+ret
+hlt

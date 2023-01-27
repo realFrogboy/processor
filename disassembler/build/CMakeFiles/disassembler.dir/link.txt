@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/disassembler.dir/sources/disassembler.cpp.o CMakeFiles/disassembler.dir/sources/disassem.cpp.o CMakeFiles/disassembler.dir/mnt/c/codeW/processor/utility/sources/oneggin.cpp.o  -o disassembler 

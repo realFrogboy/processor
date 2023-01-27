@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/assembler.dir/sources/assembler.cpp.o CMakeFiles/assembler.dir/sources/assem.cpp.o CMakeFiles/assembler.dir/mnt/c/codeW/processor/utilits/sourses/oneggin.cpp.o  -o assembler 

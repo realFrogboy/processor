@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../utilits/includes/oneggin.h
+stdio.h
+-
+stdlib.h
+-
+ctype.h
+-
+string.h
+-
+assert.h
+-
+math.h
+-
+
+../includes/assembler.h
+
+/mnt/c/codeW/processor/assembler/sources/assem.cpp
+oneggin.h
+/mnt/c/codeW/processor/assembler/sources/oneggin.h
+assembler.h
+/mnt/c/codeW/processor/assembler/sources/assembler.h
+

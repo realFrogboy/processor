@@ -1,0 +1,24 @@
+push 5
+pop ax
+call :: fact
+push bx
+out
+hlt
+: fact
+push 0
+push ax
+je :: stop
+push ax
+push ax
+push 1
+sub
+pop ax
+call :: fact
+push bx
+mul
+pop bx
+ret
+: stop
+push 1
+pop bx
+ret

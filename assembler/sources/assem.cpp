@@ -32,6 +32,7 @@ int make_code(char *str, int nSmbl) {
     LabelsDtor(label);
 
     free(astr);
+    fclose(output);
 
     return 0;
 }

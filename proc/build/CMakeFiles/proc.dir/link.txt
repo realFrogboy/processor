@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/proc.dir/sources/proc.cpp.o CMakeFiles/proc.dir/sources/processor.cpp.o CMakeFiles/proc.dir/mnt/c/codeW/processor/utility/sources/stack.cpp.o CMakeFiles/proc.dir/mnt/c/codeW/processor/utility/sources/hash.cpp.o CMakeFiles/proc.dir/mnt/c/codeW/processor/utility/sources/oneggin.cpp.o  -o proc 
